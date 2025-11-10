@@ -1,16 +1,37 @@
-# React + Vite
+# React + Redux Toolkit — Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Легкий стартовий шаблон для SPA на React з Redux Toolkit (опц. RTK Query) та Vite. Містить базову структуру, готовий стор, ESLint/Prettier і приклад слайса.
 
-Currently, two official plugins are available:
+## Що всередині
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* React 18 + Vite
 
-## React Compiler
+* Redux Toolkit + React-Redux
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+* (Опціонально) RTK Query для API
 
-## Expanding the ESLint configuration
+* React Router
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* ESLint + Prettier
+
+* Абсолютні імпорти @/
+
+## Швидкий старт
+* Створити проект з шаблону (або натисніть "Use this template" на GitHub)
+npx degit <owner>/<repo> my-app
+cd my-app
+
+* Встановити залежності
+npm i
+
+* Дев-сервер
+npm run dev
+
+* Збірка
+npm run build
+
+* Прев’ю продакшн-збірки
+npm run preview
+
+* Лінт
+npm run lint
